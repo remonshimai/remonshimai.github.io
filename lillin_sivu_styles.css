@@ -1,0 +1,39 @@
+h1 {
+	font-family: "Courier", monotype;
+	color: DarkSlateGrey;
+	font-size: 35px;
+	}
+	
+h2 {
+	font-family: "Courier", monotype;
+	color: LightSlateGrey;
+	font-size: 32px;
+	}
+	
+p {
+	font-family: "Courier", monotype;
+	color: DimGrey;
+	font-size: 16px;
+	background-color: OldLace;
+	}
+	
+body {
+	background-color: FloralWhite;
+	}
+	
+ol {
+	list-style-type: lower-alpha;
+	}
+	
+ul {
+	list-style-type: square;
+	}
+	
+.div-elementti {
+	height: 200px;
+	width: 200px;
+	border-width: 2px;
+	border-style: dotted;
+	text-align: center;
+	}
+	
