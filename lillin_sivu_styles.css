@@ -2,6 +2,10 @@ h1 {
 	font-family: "Courier", monotype;
 	color: DarkSlateGrey;
 	font-size: 35px;
+	border: 2px solid;
+	border-color: DarkSlateGrey;
+	padding: 15px;
+	border-radius: 10px;
 	}
 	
 h2 {
@@ -19,6 +23,8 @@ p {
 	
 body {
 	background-color: FloralWhite;
+	margin-left: 50px;
+	margin-right: 50px;
 	}
 	
 ol {
@@ -29,7 +35,7 @@ ul {
 	list-style-type: square;
 	}
 	
-.div-elementti {
+.div-elementti-flapjack {
 	height: 200px;
 	width: 200px;
 	border-width: 2px;
@@ -37,3 +43,54 @@ ul {
 	text-align: center;
 	}
 	
+	
+.div-navigation-top {
+	background-color: #FFFFFF;
+	overflow: hidden;
+	border-radius: 10px;
+	}
+	
+.div-navigation-top a {
+	float: left;
+	color: #2F4F4F;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	}
+	
+.div-navigation-top a:hover {
+	background-color: #DCDCDC;
+	}
+
+.div-portfolio-image {
+	margin: 20px;
+	padding: 20px;
+	float: left;
+	background-color: #FFFAFA;
+	max-width: 1000px;
+	}
+	
+figure {
+    border: thin #c0c0c0 solid;
+	display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 500px;
+	}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+	text-align: center;
+	}
+	
+label {
+	font-family: "Courier", monotype;
+	color: DarkSlateGrey;
+	padding-right: 10px;
+    font-size: 1rem;
+	font-weight: bold;
+	}
