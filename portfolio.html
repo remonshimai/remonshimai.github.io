@@ -10,26 +10,41 @@
   
   <body>
 
-	<h1>My Portfolio</h1>
-	
 	<div class="div-navigation-top">
 		<a href="index.html">Home</a>
 		<a href="portfolio.html">Portfolio</a>
 		<a href="#contact">Contact</a>
 	</div>
+
+	<h1 id="portfolio-header">My Portfolio</h1>
   
-	<div class="div-portfolio-image">
+	<aside>
 	
-		<img src="http://placeimg.com/500/320/animals" alt="Cute animals">
+	<div class="portfolio-skills-right">
+	
+		<div class="div-elementti-flapjack">
+			<img src="https://i.pinimg.com/550x/e6/1e/9e/e61e9e2fb4bb2ec0251ac14e4ccc59b1.jpg" 
+			alt="Flapjack" 
+			class="centerImage" 
+			style="width:100%;">
+			<p class="flapjack-text">This is Flapjack.</p>
+		</div>
 		
-		<figure>
-			<img src="http://placeimg.com/500/320/tech" alt="wow technology">
-			<figcaption>I want to learn more about computers and technology</figcaption>
-		</figure>
-		
-		<p>I've been self-studying basics of coding and software development. I also enjoy creating simple pc games with softwares like RPG maker MV.</p>
+		<h2>My skills</h2>
+		<ul>
+			<li>Graphic and layout design</li>
+			<li>Basics of Python, HTML and CSS</li>
+			<li>Petting cats</li>
+			<li>Sarcasm</li>
+		</ul>
 		
 	</div>
+	
+	</aside>
+  
+  <div class="div-portfolio-side-elements">
+  
+   <div class="div-skill-bars-portfolio">
 	
 	<label for="skills">My HTML and CSS skills:</label>
 		<progress id="skills" max="100" value="45"> 45% </progress>
@@ -38,10 +53,14 @@
 	
 	<label for="enthusiasm">My enthusiasm:</label>
 		<progress id="enthusiasm" max="100" value="100"> 100% </progress>
+
+	</div>
+	
+	<br>
   
-  </body>
-  
-  <footer id="contact">
+  <footer class="div-footer-portfolio">
+	
+		<h3>Contact me</h3>
 	
 		<a href="mailto:Lilli.Virtanen@student.laurea.fi">Email me!</a>
 	
@@ -52,6 +71,38 @@
 		</address>
 	
 	</footer>
+  
+  </div>
+  
+ <section>
+  
+	<div class="div-portfolio-image">
+	
+		<figure>
+		<img src="http://placeimg.com/500/320/animals" alt="Cute animals">
+		</figure>
+		
+		<br>
+		
+			<article>
+		
+			<h2>About my portfolio</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia maximus aliquam. Duis pretium vitae dui quis luctus. Quisque semper ante id leo semper, vel tincidunt ipsum sodales.</p>
+			
+		</article>
+		
+		<figure>
+			<img src="http://placeimg.com/500/320/tech" alt="wow technology">
+			<figcaption>I want to learn more about computers and technology</figcaption>
+		</figure>
+		
+		<p>I've been self-studying basics of coding and software development. I also enjoy creating simple pc games with softwares like RPG maker MV.</p>
+		
+	</div>
+  
+</section>
+	
+</body>
   
  </html>
  
